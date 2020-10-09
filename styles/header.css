@@ -1,7 +1,10 @@
 
+
 header{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
 }
 
 .header-title{
@@ -62,4 +65,23 @@ header{
 
 a{
     text-decoration: none;
+}
+
+#header-border{
+    background-image: url('../lab-assets/download.png');
+    height: 10px;
+    width: 70%;
+    justify-self: center;
+}
+
+#title{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 0;;
+}
+
+#pub-date{
+    font-weight: lighter;
+    margin-top: 0;
+    font-family: 'Titllium+Web';
 }
