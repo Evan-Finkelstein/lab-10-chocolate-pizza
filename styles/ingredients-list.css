@@ -3,8 +3,43 @@
 
 .ingredients-list{
     background-image: url('../lab-assets/list-bg.png');
-   width:  900px;
+    width:  900px;
     background-repeat: no-repeat;
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.author{
+    display: flex;
+}
+.bottom-hr{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ align-content: center;
+
+}
+
+button{
+    background-color: rgba(255, 108, 64, 0.959);
+    color: white;
+    width: 180px;
+    height: 50px;
+    justify-self: left;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    width: 30%;
+    align-items: center;
+    
+
+}
+.copyright{
+ justify-content: center;
+ text-align: center;
+ align-content: center;
+ height: 180px
 }
