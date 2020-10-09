@@ -1,0 +1,42 @@
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    height: 200px;
+}
+
+#logo{
+    display: grid;
+    grid-template-columns: 75px auto;
+    height: 100px;
+    border: 1px solid purple;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#logo-img{
+    height: 75%;
+    border: 1px solid yellowgreen;
+    align-self: center;
+
+}
+
+#delicious{
+    font-family: 'Pacifico';
+    border: 1px solid orange;
+    margin: 0;
+    padding: 0px;
+    font-size: 3em;
+    height: 70px;
+}
+
+#logo-tag{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titllium+Web';
+    font-size: .7em;
+
+}
