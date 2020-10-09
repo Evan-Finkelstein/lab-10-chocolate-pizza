@@ -1,4 +1,10 @@
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
 
 header{
     display: flex;
@@ -74,6 +80,14 @@ a{
     justify-self: center;
 }
 
+#title-section{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: flex-end;
+}
+
+    
 #title{
     font-size: 2em;
     margin-top: 50px;
@@ -83,5 +97,21 @@ a{
 #pub-date{
     font-weight: lighter;
     margin-top: 0;
-    font-family: 'Titllium+Web';
 }
+
+#print-link{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: right;
+    height: 50px;
+}
+
+#print-icon{
+    height: 15px;
+}
+
+#main-image{
+    width: 70%;
+}
+
