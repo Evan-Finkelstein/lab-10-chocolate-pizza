@@ -1,7 +1,16 @@
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
 header{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
 }
 
 .header-title{
@@ -63,3 +72,46 @@ header{
 a{
     text-decoration: none;
 }
+
+#header-border{
+    background-image: url('../lab-assets/download.png');
+    height: 10px;
+    width: 70%;
+    justify-self: center;
+}
+
+#title-section{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: flex-end;
+}
+
+    
+#title{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 0;;
+}
+
+#pub-date{
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+#print-link{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: right;
+    height: 50px;
+}
+
+#print-icon{
+    height: 15px;
+}
+
+#main-image{
+    width: 70%;
+}
+
