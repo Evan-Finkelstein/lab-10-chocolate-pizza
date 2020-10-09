@@ -1,0 +1,10 @@
+
+
+
+.ingredients-list{
+    background-image: url('../lab-assets/list-bg.png');
+   width:  900px;
+    background-repeat: no-repeat;
+    display: flex;
+justify-content: space-around;
+}
