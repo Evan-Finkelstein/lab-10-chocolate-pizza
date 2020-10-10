@@ -1,15 +1,26 @@
-
 body{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    width: 100%;
 }
 
+
+.text{
+    text-align: center;
+}
 
 header{
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 
@@ -19,7 +30,6 @@ header{
     justify-content: space-between;
     font-family: 'Pacifico', cursive;
     height: 200px;
-    width: 75%;
 }
 
 
@@ -76,14 +86,12 @@ a{
 #header-border{
     background-image: url('../lab-assets/download.png');
     height: 10px;
-    width: 70%;
     justify-self: center;
 }
 
 #title-section{
     display: flex;
     justify-content: space-between;
-    width: 70%;
     align-items: flex-end;
 }
 
@@ -111,7 +119,4 @@ a{
     height: 15px;
 }
 
-#main-image{
-    width: 70%;
-}
 
